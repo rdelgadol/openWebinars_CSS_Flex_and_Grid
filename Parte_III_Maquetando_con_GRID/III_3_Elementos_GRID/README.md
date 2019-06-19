@@ -31,7 +31,7 @@ Para definir el área de los elementos del GRID, que son tres, usaremos el sigui
 #azul {
   background-color: blue;
   grid-column-start: 1;
-  grid-column-start: 2;
+  grid-column-end: 2;
   grid-row-start: uno;
   grid-row-end: cuatro;
 }
@@ -39,15 +39,15 @@ Para definir el área de los elementos del GRID, que son tres, usaremos el sigui
 #rojo {
   background-color: red;
   grid-column-start: 2;
-  grid-column-start: 3;
+  grid-column-end: 3;
   grid-row-start: uno;
-  grid-row-end: uno;
+  grid-row-end: dos;
 }
 
 #amarillo {
   background-color: yellow;
   grid-column-start: 2;
-  grid-column-start: 5;
+  grid-column-end: 5;
   grid-row-start: dos;
   grid-row-end: span 2;
 }

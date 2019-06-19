@@ -24,7 +24,7 @@
   grid-column-start: 2;
   grid-column-end: span 3;
   grid-row-start: uno;
-  grid-row-end: uno;
+  grid-row-end: dos ;
 }
 
 #amarillo {
