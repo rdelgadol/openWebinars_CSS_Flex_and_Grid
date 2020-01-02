@@ -10,7 +10,7 @@ Los elementos flexibles se muestran dentro del contenedor flex en el mismo orden
 
 Si queremos modificar esto debemos añadir la propiedad CSS **_order_** a los elementos cuyo orden queremos modificar.
 
-Por defecto este valor es 0 y se mostrarán primeros aquellos elementos que tenga un mayor orden. En caso de empate se muestra antes el que primero estuviera en el código.
+Por defecto este valor es 0 y se mostrarán en orden ascendente (primero los de menor valor). En caso de empate se muestra antes el que primero estuviera en el código.
 
 ### Ajustando el tamaño de los elementos flexibles.
 
